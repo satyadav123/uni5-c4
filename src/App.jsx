@@ -1,11 +1,11 @@
 import { useSelector, useStore } from "react-redux";
 import { Link, Route, Routes } from "react-router-dom";
-import { Home } from "./components/Home";
-import { Login } from "./components/Login";
-import { Logout } from "./components/Logout";
-import { NewOrder } from "./components/NewOrder";
+import { Home } from "./components/home";
+import { Login } from "./components/login";
+import { Logout } from "./components/logout";
+import { NewOrder } from "./components/newOrder";
 import { Orders } from "./components/Orders";
-import { ProtectedRoute } from "./components/ProtextedRoute";
+import { ProtectedRoute } from "./components/ProtextRoute";
 
 function App() {
 
